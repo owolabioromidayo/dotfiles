@@ -120,8 +120,13 @@ alias timer="python3 ~/tools/timer.py"
 alias vlc="/mnt/c/\"Program Files (x86)\"/VideoLAN/VLC/vlc.exe"
 alias _open="explorer.exe"
 alias cpdf=" ~/tools/cpdf"
-alias commands="vim ~/other/notes/commands"
+alias commands="vim ~/commands"
+alias editsh="vim ~/.zshrc"
 alias coursera-dl="~/.local/bin/coursera-dl"
+alias jsonpp="~/.local/bin/jsonpp"
+alias mongodb-shell-"~/.local/bin/mongodb-shell"
+alias scrapy="~/.local/bin/scrapy"
+alias alacritty-edit="vim /mnt/c/Users/Oromidayo/AppData/Roaming/alacritty/alacritty.yml"
 export PATH=/home/oromidayo/.local/mongodb-shell/bin:$PATH
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
