@@ -2,3 +2,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/owolabioromidayo/feedreader ~/feedreader
 cd ~/feedreader
 npm install
+cd ~
+sudo apt-get install python3
+sudo apt install python3-rosdep2
+sudo apt-get install ros-noetic-desktop-full
+sudo apt install pas haveged ruby -y

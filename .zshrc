@@ -129,6 +129,8 @@ alias scrapy="~/.local/bin/scrapy"
 alias nmap="/mnt/c/Program\ Files\ \(x86\)/Nmap/nmap.exe"
 alias alacritty-edit="vim /mnt/c/Users/Oromidayo/AppData/Roaming/alacritty/alacritty.yml"
 alias feedreader="node ~/feedreader/server.js"
+alias killroscore= "sudo killall -9 roscore && sudo killall -9 rosmaster"
+alias pass="python3 ~/pass/pass.py"
 export PATH=/home/oromidayo/.local/mongodb-shell/bin:$PATH
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
