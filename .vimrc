@@ -44,3 +44,8 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+nmap <F6> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
+
+set tabstop=4

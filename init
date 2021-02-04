@@ -6,4 +6,5 @@ cd ~
 sudo apt-get install python3
 sudo apt install python3-rosdep2
 sudo apt-get install ros-noetic-desktop-full
-sudo apt install pas haveged ruby -y
+sudo apt-get install inotifywait
+inotifywait -q -m -e CLOSE_WRITE --format="git commit -m 'autocommit on change' %w" passwords.txt | sh
