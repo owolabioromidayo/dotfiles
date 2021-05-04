@@ -140,3 +140,4 @@ export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source /opt/ros/noetic/setup.zsh
+source ~/catkin_ws/devel/setup.zsh
