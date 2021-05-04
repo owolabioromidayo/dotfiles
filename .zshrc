@@ -109,7 +109,7 @@ alias home="/mnt/c/users/oromidayo/desktop"
 alias youtube-dl="~/.local/bin/youtube-dl"
 alias jnotes="~/.local/bin/jupyter-notebook"
 alias jlab="~/.local/bin/jupyter-lab"
-alias display="export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0"
+#alias display="export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0"
 alias smongo="sudo service mongodb"
 alias shutup="python3 ~/tools/shut_up.py"
 alias wordcount="python3 ~/tools/wordcounter.py"
@@ -132,6 +132,10 @@ alias killroscore= "sudo killall -9 roscore && sudo killall -9 rosmaster"
 alias pass="python3 ~/pass/pass.py"
 alias virtualenv="~/.local/bin/virtualenv"
 export PATH=/home/oromidayo/.local/mongodb-shell/bin:$PATH
+export TURTLEBOT3_MODEL=burger
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
