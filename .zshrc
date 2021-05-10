@@ -106,35 +106,22 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias reload=". ~/.zshrc"
 alias home="/mnt/c/users/oromidayo/desktop"
-alias youtube-dl="~/.local/bin/youtube-dl"
-alias jnotes="~/.local/bin/jupyter-notebook"
-alias jlab="~/.local/bin/jupyter-lab"
-#alias display="export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0"
 alias smongo="sudo service mongodb"
-alias shutup="python3 ~/tools/shut_up.py"
-alias wordcount="python3 ~/tools/wordcounter.py"
 alias editsh="vim ~/.zshrc"
-alias todo="cat ~/todo.md"
-alias journal-entry="python3 ~/tools/typing.py"
-alias timer="python3 ~/tools/timer.py"
-alias vlc="/mnt/c/\"Program Files (x86)\"/VideoLAN/VLC/vlc.exe"
 alias _open="explorer.exe"
-alias cpdf=" ~/tools/cpdf"
 alias commands="vim ~/tools/commands"
 alias editsh="vim ~/.zshrc"
-alias coursera-dl="~/.local/bin/coursera-dl"
-alias jsonpp="~/.local/bin/jsonpp"
-alias mongodb-shell-"~/.local/bin/mongodb-shell"
-alias scrapy="~/.local/bin/scrapy"
 alias alacritty-edit="vim /mnt/c/Users/Oromidayo/AppData/Roaming/alacritty/alacritty.yml"
 alias feedreader="node ~/feedreader/server.js"
 alias killroscore= "sudo killall -9 roscore && sudo killall -9 rosmaster"
 alias pass="python3 ~/pass/pass.py"
-alias virtualenv="~/.local/bin/virtualenv"
+alias drop_cache="sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a && swapon -a && printf '\n%s\n' 'Ram-cache and Swap Cleared'\""
+alias subl="/mnt/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
 export PATH=/home/oromidayo/.local/mongodb-shell/bin:$PATH
 export TURTLEBOT3_MODEL=burger
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
-
+export PATH=/home/oromidayo/.local/bin:$PATH
+export PATH=/home/oromidayo/tools:$PATH
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
