@@ -117,6 +117,7 @@ alias killroscore= "sudo killall -9 roscore && sudo killall -9 rosmaster"
 alias pass="python3 ~/pass/pass.py"
 alias drop_cache="sudo sh -c \"echo 3 >'/proc/sys/vm/drop_caches' && swapoff -a && swapon -a && printf '\n%s\n' 'Ram-cache and Swap Cleared'\""
 alias subl="/mnt/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+alias hibernate="sudo systemctl hibernate"
 export PATH=/home/oromidayo/.local/mongodb-shell/bin:$PATH
 export TURTLEBOT3_MODEL=burger
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
